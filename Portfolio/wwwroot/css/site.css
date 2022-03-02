@@ -1,0 +1,63 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+label{
+    width: 75px;
+}
+
+#welcome-block{
+    background-color: azure;
+    padding-block-end: 75px;
+}
+#project-block{
+    background-color: lightgoldenrodyellow;
+    padding-block-end: 75px;
+}
+
+.navbar{
+    height:75px;
+}
+.hidden-expand{
+
+    display: none;
+}
+.expand-down{
+
+}
+.skills-dropdown{
+    font-size:36px;
+    font-weight: 200;
+}
+.skills-hidden{
+    display: none;
+    font-size: 18px;
+
+}
+.spacer-block{
+    height: 75px;
+}
+
+.enlarging-links {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.block-link{
+    font-size: 24px;
+}

@@ -16,4 +16,11 @@ $(document).ready(() => {
     $('.enlarging-links').on('mouseleave', event => {
         $(event.currentTarget).css('font-size', '16px');
     });
+    $('.hover-light').on('mouseenter', event => {
+        $(event.currentTarget).css('color', 'gray');
+    });
+    $('.hover-light').on('mouseleave', event => {
+        $(event.currentTarget).css('color', 'black');
+    });
+
 });
